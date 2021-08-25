@@ -1,0 +1,59 @@
+body {
+    font-size: 16px;
+    color:black;
+    background-color: #B0CDD9;
+    font-family: cursive, Times, serif;
+    text-align: justify;
+}
+/** HEADER **/
+#header-nav {
+    background-color: #3557FC;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand h1 { /* Restaurant name */
+    font-family: cursive, Times, serif;
+    text-align: left;
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+}
+#nav-list > li > a {
+    color: white;
+    font-family: cursive, Times, serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+/** CONTENT **/
+.menu-item {
+    background-color: transparent;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.menu-item > a {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu-item > h3 {
+    margin: 10px;
+    text-align: center;
+}
+/***Desktop mockup illustration***/
+@media  (min-width: 992px) {
+    
+}
+/***Tablet mockup illustration***/
+@media  (min-width: 992px) {
+    
+}
+/***Mobile mockup illustration***/
+@media  (min-width: 992px) {
+    
+}
